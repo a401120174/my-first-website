@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>THE BAR</title>
+	<link rel="stylesheet" type="text/css" href="barstylesheet.css">
+	<link rel="Shortcut Icon" type="image/x-icon" href="asset/asset02.png" />
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="parallax.js"></script>
+</head>
+<body>
+	<nav>
+		<a href="index.html"><img src="asset/asset02.png" alt=""></a>
+		<ul>
+			<li><a href="menu.html">OUR MENU</a></li>
+			<li><a href="#" id="now">THE BAR</a></li>
+			<li><a href="about.html">ABOUT US</a></li>
+			<li><a href="book.html" id="book01">BOOK ONLINE</a></li>
+		</ul>
+	</nav>
+
+	<div class="banner">
+		<h1>THE BAR</h1>
+	</div>
+	<div class="big_box">
+		<iframe id="myVideo" src="https://www.youtube.com/embed/zkq-hCDkHh0?&controls=0" frameborder="0" volumn="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		<div class="box first1"></div>
+		<!-- <div class="box first2"></div> -->
+		<div class="box second1">
+			<h2>TAPAS BAR</h2>
+			<p>Here at RICO! we work with only the best food supliers like small family farms, insuring that we always have the best and always fresh ingredients. You’ll find a large variety of dishes made to satisfy any taste
+			</p>
+		</div>
+		<div class="box second2"></div>
+		<div class="box second3 parallax-window1" data-parallax="scroll" data-image-src="asset/asset32.jpg"></div>
+		<div class="box third1"></div>
+		<div class="box third2">
+			<h2>Live Music Show</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation
+			</p>
+		</div>
+		<div class="box four1"></div>
+		<div class="box four2"></div>
+	</div>
+
+	<footer>
+		<div class="foot_left">
+			<h4>SITE MAP</h4>
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="menu.html">MENU</a></li>
+				<li><a href="about.html">ABOUT US</a></li>
+				<li><a href="#">THE BAR</a></li>
+				<li><a href="book.html">BOOK ONLINE</a></li>
+			</ul>
+		</div>
+		<div class="foot_logo">
+			<img src="asset/asset02.png" alt="LOGO">
+			<h4>Copyright © 2018 RICO! All rights reserved</h4>
+		</div>
+		<div class="foot_right">
+			<h4>Tel:03-425-7387</h4>
+			<h4>Address:Zhongli, Taoyuan City, Taiwan</h4>
+		</div>
+	</footer>
+	<script>
+		$('.parallax-window1').parallax();
+
+		var myVideo =  document.getElementById('myVideo'); 
+		myVideo.mute();
+	</script>
+	
+</body>
+</html>
